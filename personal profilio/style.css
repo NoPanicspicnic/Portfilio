@@ -60,10 +60,9 @@ table {
 
 #title_image {
 	position:fixed;
-	bottom: 100px;
+	top: 0;
 	width: 100%;
 	z-index: -1;
-	height: 850px;
 }
 
 #title_words {
@@ -92,7 +91,7 @@ table {
 
 .rounded:hover {
 	background-color: rgba(200, 200, 200, 0.4);
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 #portfilio {
